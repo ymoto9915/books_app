@@ -31,3 +31,11 @@
 
 en:
   hello: "Hello world"
+  flash:
+    actions:
+      create:
+        notice: Book was successfully created
+      update:
+        notice: Book was successfully updated
+      destroy:
+        notice: Book w
