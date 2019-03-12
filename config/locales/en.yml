@@ -34,8 +34,8 @@ en:
   flash:
     actions:
       create:
-        notice: Book was successfully created
+        notice: Book was successfully created.
       update:
-        notice: Book was successfully updated
+        notice: Book was successfully updated.
       destroy:
-        notice: Book w
+        notice: Book was successfully destroyed.
