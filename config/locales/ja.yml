@@ -1,0 +1,39 @@
+ja:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: 'バリデーションに失敗しました: %{errors}'
+        restrict_dependent_destroy:
+          has_one: "%{record}が存在しているので削除できません"
+          has_many: "%{record}が存在しているので削除できません"
+  helpers:
+    submit:
+      create: 登録する
+      submit: 保存する
+      update: 更新する
+    label:
+      book:
+        title: タイトル
+        memo: メモ
+        author: 著者
+        picture: 写真
+  flash:
+      actions:
+        create:
+          notice: 保存成功
+        update:
+          notice: 編集完了
+        destroy:
+          notice: 削除完了
+  title: タイトル
+  memo: メモ
+  author: 著者
+  picture: 写真
+  new book: 新しい本
+  show: 詳細
+  edit: 編集
+  destroy: 削除
+  back: 戻る
+  confirm: 本当に消しますか?
+  books: 本
+  editing book: 本を編集
