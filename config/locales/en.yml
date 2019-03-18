@@ -25,6 +25,13 @@ en:
           notice: Book was successfully updated.
         destroy:
           notice: Book was successfully destroyed.
+  views:
+     pagination:
+       first: "&laquo; First"
+       last: "Last &raquo;"
+       previous: "&lsaquo; Prev"
+       next: "Next &rsaquo;"
+       truncate: "&hellip;"
   title: Title
   memo: Memo
   author: Author
